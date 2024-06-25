@@ -23,8 +23,9 @@ body{
 .listinha{
     display: none;
 }
-.menu-checkbox:checked ~ .listinha{
+.menu-checkbox:checked~ .listinha{
 display: block;
 }
+
 
 
