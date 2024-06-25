@@ -3,7 +3,7 @@ body{
 }
 .cabeca{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     background-color:white;
     align-items:center
 }
@@ -15,8 +15,22 @@ body{
     width: 24px;
     height: 24px;
     display: inline-block;
-    background-image: url(assets/IMG/AluraBooks/Menu.svg);
+    background-image: url(../IMG/AluraBooks/Menu.svg);
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.listinha{
+    display: none;
+}
+.menu-checkbox:checked ~ .listinha{
+display: block;
+}
+
+.listinha-item{
+    padding: 1em;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: initial;
 }
 
