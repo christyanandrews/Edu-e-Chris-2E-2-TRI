@@ -22,7 +22,7 @@ body{
 
 .listinha{
     display: none;
-    position:absolute
+    position:absolute;
     width:60vw;
 }
 .menu-checkbox:checked ~ .listinha{
@@ -32,7 +32,11 @@ display: block;
 .listinha-item{
     padding: 1em;
     background-color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-variant: initial;
 }
+
+.lixo{
+    background-color: var(--branco);
+    color: var(--laranja);
+}
+
 
