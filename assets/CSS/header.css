@@ -23,7 +23,10 @@ body{
 .listinha{
     display: none;
     position:absolute;
-    width:60vw;
+    width:120vw;
+}
+.menu-checkbox{
+    display: none;
 }
 .menu-checkbox:checked ~ .listinha{
 display: block;
@@ -31,12 +34,15 @@ display: block;
 
 .listinha-item{
     padding: 1em;
-    background-color: white;
+    background-color: aliceblue;
+    font-size: large;
 }
 
 .lixo{
     background-color: var(--branco);
     color: var(--laranja);
+    font-size: 27px;
+    font-weight: bold;
 }
 
 
