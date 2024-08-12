@@ -1,10 +1,10 @@
 body{
-    background-color: #ebecee;
+    background-image: linear-gradient(97.56deg, pink 35.49%, #326589 165.37%);
 }
 .cabeca{
     display: flex;
     justify-content:space-between;
-    background-color:white;
+    background-color:pink;
     align-items:center
 }
 .conteiner{
@@ -34,7 +34,7 @@ display: block;
 
 .listinha-item{
     padding: 1em;
-    background-color: aliceblue;
+    background-color: rgb(255, 106, 130);
     font-size: large;
 }
 
